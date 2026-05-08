@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Project specific
+settings.json
+hand_landmarker.task
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store

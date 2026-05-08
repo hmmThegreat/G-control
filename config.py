@@ -4,10 +4,10 @@ import os
 CONFIG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings.json")
 
 DEFAULTS = {
-    "sensitivity": 0.15,
+    "sensitivity": 0.12,
     "cooldown": 0.8,
     "min_confidence": 0.70,
-    "frame_window": 20,
+    "frame_window": 25,
     "enabled": True,
     "mode": "spaces",
     "show_landmarks": True,
